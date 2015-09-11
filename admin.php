@@ -7,9 +7,9 @@ if(!array_key_exists('connected', $_SESSION)){
 }
 
 $servername = "localhost";
-$username = "hassalobe";
-$password = "ypa9esegu";
-$dbname = "hassalobe_veggies";
+$username = "root";
+$password = "";
+$dbname = "veggies";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

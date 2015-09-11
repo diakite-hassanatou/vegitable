@@ -3,12 +3,12 @@ session_start();
 
 // Definition des parametres d' acces a la base de donnees
 $servername = "localhost";
-$username = "hassalobe";
-$password = "ypa9esegu";
-$dbname = "hassalobe_veggies";
+$username = "root";
+$password = "";
+$dbname = "veggies";
 
-// Creer connection avec la base de donnees
-$conn = new mysql($servername, $username, $password, $dbname);
+// Creer connexion avec la base de donnees
+$conn = new mysqli($servername, $username, $password, $dbname);
 // Verifie si connection a marche
 if ($conn->connect_error) {
     die("Connection echouee: " . $conn->connect_error);
