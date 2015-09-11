@@ -8,7 +8,7 @@ $password = "ypa9esegu";
 $dbname = "hassalobe_veggies";
 
 // Creer connection avec la base de donnees
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysql($servername, $username, $password, $dbname);
 // Verifie si connection a marche
 if ($conn->connect_error) {
     die("Connection echouee: " . $conn->connect_error);
