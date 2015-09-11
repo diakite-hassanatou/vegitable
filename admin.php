@@ -7,9 +7,9 @@ if(!array_key_exists('connected', $_SESSION)){
 }
 
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "veggies";
+$username = "hassalobe";
+$password = "ypa9esegu";
+$dbname = "hassalobe_veggies";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -74,8 +74,8 @@ $result = $conn->query($sql);
 </div>
 </div>
 
-<div id="header">
-</div>
+	<div id="header">
+	</div>
 <div id="content">
 	<h2>Liste des produits</h2>
 	<br />	<br />

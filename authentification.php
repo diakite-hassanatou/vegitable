@@ -16,9 +16,9 @@ $password_input = $_POST['password'];
 //Ouverture de session base de donn…es
 
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "veggies";
+$username = "hassalobe";
+$password = "ypa9esegu";
+$dbname = "hassalobe_veggies";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

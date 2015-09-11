@@ -41,8 +41,8 @@ if (array_key_exists('connected', $_SESSION)){
 </div>
 </div>
 
-<div id="header">
-</div>
+	<div id="header">
+	</div>
 <div id="content">
 <div id="mainpage">
 <h2>Welcome to Our Website!</h2>

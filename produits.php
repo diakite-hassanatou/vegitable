@@ -3,9 +3,9 @@ session_start();
 
 // Definition des parametres d' acces a la base de donnees
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "veggies";
+$username = "hassalobe";
+$password = "ypa9esegu";
+$dbname = "hassalobe_veggies";
 
 // Creer connection avec la base de donnees
 $conn = new mysqli($servername, $username, $password, $dbname);
